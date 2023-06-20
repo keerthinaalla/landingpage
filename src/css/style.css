@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+
+    background-color: #2ED06E;
+    display: grid;
+    color: #fff;
+    height: 100vh;
+    width: 100%;
+    place-content: center;
+    text-align: center;
+}
+
+.min-heading {
+    font-size: 1.8rem;
+}
+
+.main-heading {
+    font-size: 6.5rem;
+    margin-block: 3rem;
+    font-family: serif !important;
+}
+
+.paragrah {
+    font-size: 2rem;
+}
+
+.three-section {
+    text-align: center;
+    padding-block: 7rem;
+}
+
+.fix-width {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-inline: 5px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.three-section .main-heading {
+    margin-block: 1.5rem;
+}
+
+.three-section .paragrah {
+    margin-bottom: 5rem;
+    font-size: 1.8rem;
+}
+
+.three-section .main-heading {
+    font-weight: bolder;
+    font-family: serif;
+}
+
+.three-section .box {
+    margin-top: 1rem;
+    width: 31%;
+    padding: 12rem 2.5rem;
+    box-shadow: 0 0 30px rgba(81, 94, 125, .082);
+    border-radius: 20px;
+    border-top: 3px solid #2ED06E;
+    border-bottom: 3px solid #2ED06E;
+}
+
+.three-section .box h1 {
+    font-size: 3rem;
+    color: #081828;
+    margin-bottom: 3rem;
+}
+
+.three-section .box p {
+    color: #727272;
+    font-size: 1.8rem;
+}
