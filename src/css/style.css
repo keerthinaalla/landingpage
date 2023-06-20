@@ -86,3 +86,14 @@ header {
     color: #727272;
     font-size: 1.8rem;
 }
+
+footer {
+    padding: 5rem;
+    background-color: #081828;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    font-size: 2rem;
+}

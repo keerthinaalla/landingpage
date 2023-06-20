@@ -1,8 +1,8 @@
 const Footer = () => {
     return (
-        <div>
-            <h1>Footer Zone</h1>
-        </div>
+        <footer>
+            <p>Developed by 💖 Keerthi</p>
+        </footer>
     )
 }
 export { Footer }
